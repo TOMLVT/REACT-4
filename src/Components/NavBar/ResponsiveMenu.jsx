@@ -1,6 +1,7 @@
 
 import { motion, AnimatePresence } from "framer-motion";
 
+// eslint-disable-next-line react/prop-types
 const ResponsiveMenu = ({open }) => {
   return (
     <AnimatePresence mode="wait">
